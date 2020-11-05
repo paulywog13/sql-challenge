@@ -9,3 +9,32 @@ CREATE TABLE dept_emp(
 	dept_no VARCHAR);
 
 SELECT * FROM dept_emp;
+
+CREATE TABLE dept_manager(
+	dept_no VARCHAR,
+	emp_no INT);
+
+SELECT * FROM dept_manager;
+
+CREATE TABLE employees(
+	emp_no INT,
+	emp_title VARCHAR,
+	birth_date MDY,
+	first_name VARCHAR,
+	last_name VARCHAR,
+	sex VARCHAR,
+	hire_date MDY);
+
+SELECT * FROM employees;
+
+CREATE TABLE salaries(
+	emp_no INT,
+	salary INT);
+
+SELECT * FROM salaries;
+
+CREATE TABLE titles(
+	title_id VARCHAR,
+	title VARCHAR);
+
+SELECT * FROM titles;
