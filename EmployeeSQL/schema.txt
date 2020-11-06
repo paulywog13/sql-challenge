@@ -13,13 +13,12 @@ CREATE TABLE employees(
 	sex VARCHAR NOT NULL,
 	hire_date DATE NOT NULL);
 
+
 SELECT * FROM employees;
 
 CREATE TABLE dept_emp(
 	emp_no INT NOT NULL,
 	dept_no VARCHAR NOT NULL);
-
--- DROP TABLE dept_emp;
 
 SELECT * FROM dept_emp;
 
