@@ -13,12 +13,13 @@ CREATE TABLE employees(
 	sex VARCHAR NOT NULL,
 	hire_date DATE NOT NULL);
 
-
 SELECT * FROM employees;
 
 CREATE TABLE dept_emp(
 	emp_no INT NOT NULL,
 	dept_no VARCHAR NOT NULL);
+
+-- DROP TABLE dept_emp;
 
 SELECT * FROM dept_emp;
 
@@ -53,3 +54,7 @@ ALTER TABLE dept_manager ADD CONSTRAINT FK_dept_mgr FOREIGN KEY(dept_no) REFEREN
 ALTER TABLE dept_manager ADD CONSTRAINT FK_emp_mgr FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
 
 ALTER TABLE salaries ADD CONSTRAINT FK_emp_salary FOREIGN KEY(emp_no) REFERENCES employees(emp_no);
+
+
+
+
