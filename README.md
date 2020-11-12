@@ -12,4 +12,6 @@ My main takeaway from this project is that SQL is a wonderful tool for finding w
 
 The most difficult challenge I had with this assignment was in the identifying the primary and foreign keys for each table and then creating the ERD file based upon these keys.
 
+I was unable to finish the bonus part of the homework as my config.py folder would not communicate with my Jupyter Notebook until the final day that the assignment was due. I will continue working on the bonus as I want to understand how to convert the data properly and be able to graph it.
+
 Overall, I found this homework challenge to be fun and I enjoy the SQL coding syntax as it seems to be fairly straightforward and logical.
