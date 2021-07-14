@@ -4,7 +4,7 @@ The goal of this challenge was to use SQL coding in order to analyze individual 
 
 Files included in this challenge: departments.csv, dept_emp.csv, employees.csv, salaries.csv, titles.csv, dept_manager.csv
 
-Dependencies used: SQL
+Dependencies used: SQL, pandas, seaborn, matplotlib, sqlalchemy
 
 My schema and queries SQL files are included in the EmplyeeSQL file.
 
