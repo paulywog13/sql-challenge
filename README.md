@@ -10,8 +10,12 @@ My schema and queries SQL files are included in the EmplyeeSQL file.
 
 My main takeaway from this project is that SQL is a wonderful tool for finding ways to combine multiple data files using primary and foreign keys and shared information to analyze the data available. SQL allowed me to create easy to use coding options in order to combine and summarize the data in a concise, easy to read format.
 
-The most difficult challenge I had with this assignment was in the identifying the primary and foreign keys for each table and then creating the ERD file based upon these keys.
+One of the great parts of this challenge was having to the identifying the primary and foreign keys for each table and then creating the ERD file based upon these keys.
 
-I was unable to finish the bonus part of the homework as my config.py folder would not communicate with my Jupyter Notebook until the final day that the assignment was due. I will continue working on the bonus as I want to understand how to convert the data properly and be able to graph it.
+For the bonus part of this challenge I used Jupyter Notebook to read in the postgresql tables created pgAdmin to merge the data tables. 
 
-Overall, I found this homework challenge to be fun and I enjoy the SQL coding syntax as it seems to be fairly straightforward and logical.
+Once merged, I was able to create the following Histogram to display the freaquency of employees based upon salary ranges. This graph shows that a significant majority of the salaries for this company are between the $40,000 to $50,000 range and very few jobs above the $75,000 salary range. 
+
+Lastly, I created the following Bar Graph to show the average salaries for each job title and as you can see, the average salary for each title is pretty similar. 
+
+Overall, I found this challenge to be fun and I enjoy the SQL coding syntax as it seems to be fairly straightforward and logical.
